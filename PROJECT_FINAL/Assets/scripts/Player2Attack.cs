@@ -34,6 +34,8 @@ public class Player2Attack : MonoBehaviour
     {
 
 
+
+        
 if (player2.transform.position.x > player1.transform.position.x) {
             facingPOS = new Vector3(-3,0,0);
         }

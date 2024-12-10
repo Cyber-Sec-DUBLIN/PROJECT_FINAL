@@ -99,7 +99,7 @@ public class player1con : MonoBehaviour
         winntext.text = "PLAYER 2 WINS ";
         health_text_1.text = "";
         await Task.Delay(4000);
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
         
     }   
 }

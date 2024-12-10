@@ -119,7 +119,7 @@ public class player2con : MonoBehaviour
         health_text_2.text = "";
         
         await Task.Delay(4000);
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
     }
   
 

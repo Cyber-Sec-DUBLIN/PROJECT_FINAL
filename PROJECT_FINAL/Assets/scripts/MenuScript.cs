@@ -6,12 +6,13 @@ using UnityEngine.SceneManagement;
 public class MenuScript : MonoBehaviour
 {
 public void StartGame() {
-SceneManager.LoadScene(1);
+SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
 }
 
 
 public void PlayGame() {
-SceneManager.LoadScene(2);
+SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 }
 
 public void GitHub() {
